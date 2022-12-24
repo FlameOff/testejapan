@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: img 100s infinite linear;
+}
+@keyframes img {
+    0%   { 
+        background: url(fundo.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    20%  { 
+        background: url(fundo2.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    40%  { 
+        background: url(fundo3.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    60%  { 
+        background: url(fundo4.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    80%  { 
+        background: url(fundo5.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    100% { 
+        background: url(fundo.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+  }
+.desin{
+    color: aliceblue;
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+    font-size:50px ;
+    width: 100%;
+    height: max-content;
+    padding-bottom:130px
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left:30px ;
+    margin-right:30px ;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+nav h1{
+    color: aliceblue;
+    font-size: 35px;
+}
+li button{
+    background-color:gold;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px gold;
+}
+ul{
+    list-style: none;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 30px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    display: inline;
+    margin-inline: 10px;
+    position: relative;
+    background-color: gold;
+    border: 1px gold;
+    border-radius: 10px;
+    font-size:20px ;
+    padding: 10px 30px;
+    color: black;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    opacity: 0.8;
+}
+.fot{
+    display: flex;
+    width: 100%;
+    height:max-content;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+.fot p{
+    display: flex;
+    
+    font-size: 20px;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}

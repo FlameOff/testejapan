@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: img 70s infinite linear;
+}
+@keyframes img {
+    0%   { 
+        background: #d80013 no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    20%  { 
+        background: #5b0e27 no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    40%  { 
+        background: #d12d6b no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    60%  { 
+        background: #011e56 no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    80%  { 
+        background: #6a97df no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+    100% { 
+        background: #4057ac no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed; 
+    }
+}
+.imprin{
+    background: url(fest.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed ;
+    max-width: 100%;
+    display: flex;
+    max-height: 400px;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imprin h1{
+    animation: img 70s infinite linear;
+    padding: 20px;
+    border-radius: 30px;
+}
+.fundo{
+    background: aliceblue;
+}
+.fest{
+    display: flex;
+    padding: 5px 10px;
+    color: black;
+    flex-direction: column;
+    text-align: justify;
+}
+.fest h2{
+    background-color: blueviolet;
+    width: max-content;
+    height: max-content;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.fest img{
+    border-radius: 20px;
+    margin: 0px 400px;
+}
+.navd{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color: black;
+    background-color: gold;
+    padding: 8px 15px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    justify-items:center;
+    align-content:center;
+    flex-direction: row;
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
